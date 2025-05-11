@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f0f4f8;
+}
+
+#btn {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#play-again {
+    background-color: #28a745;
+}
+
+#play-again:hover {
+    background-color: #1e7e34;
+}
+
+#result {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333;
+}
+
+#score {
+    font-size: 20px;
+    color: #555;
+}
